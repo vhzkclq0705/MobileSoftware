@@ -2,6 +2,7 @@ package com.example.layoutexamplepractice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log.i
 import android.view.Gravity
 import android.view.View.generateViewId
 import android.widget.Button
@@ -10,7 +11,7 @@ import android.widget.LinearLayout
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main)
 
 //        create_UI()
     }
@@ -53,5 +54,6 @@ class MainActivity : AppCompatActivity() {
         linearLayout.addView(button2)
         setContentView(linearLayout)
     }
+
 
 }
